@@ -1,0 +1,68 @@
+
+
+form {
+    background: white;
+    border: 1px solid #dedede;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 500px;
+    padding: 30px 50px;
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    z-index: 10;
+    width: 30%;
+}
+
+input {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+}
+
+label {
+    color: #3d3d3d;
+    display: block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.error {
+    color: red;
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 30px;
+}
+
+.new-animal__actions {
+    background-color: #6976d9;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.new-animal__actionsCancel{
+    background-color: #e51a40;
+    color: white;
+    font-family: sans-serif;
+    font-size:18px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons_actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
