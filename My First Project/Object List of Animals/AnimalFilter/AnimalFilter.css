@@ -1,0 +1,15 @@
+.select{
+    padding-bottom: 30px;
+    margin: 0;
+    border: none;
+    align-items: flex-end;
+    width: 100%;
+    position: relative;
+    left: 10%;
+}
+
+select{
+    cursor: pointer;
+    min-width: 150px;
+    max-width: 250px;
+}
