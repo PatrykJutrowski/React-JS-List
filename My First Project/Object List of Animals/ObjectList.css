@@ -1,0 +1,54 @@
+
+.animals{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    border : solid 1px black;
+    padding: 10px;
+    margin: 5px;
+}
+
+img{
+    width: 50%;
+    height: 100%;
+    margin: 2px;
+}
+
+li{
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.animals button:last-of-type{
+    margin-left: auto;
+}
+.animals button{
+    margin: 2px;
+    height: 30px;
+    width: 30px;
+    background: indianred;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+div .button{
+    background: #29a1ff;
+    border-radius: 4px;
+    border: none;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sorting{
+    display: flex;
+    align-items: flex-end;
+}
+
+
